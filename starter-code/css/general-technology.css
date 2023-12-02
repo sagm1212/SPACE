@@ -1,0 +1,130 @@
+#menu li:nth-child(4){ 
+    border-bottom: 3px solid white;
+}
+#container{
+    background-image: url(/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 127px;
+    padding-bottom: 76px;
+}
+.menu-technology li{
+    padding-bottom: 30px;
+    list-style: none;
+    padding-right: 70px;
+}
+.menu-technology li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu-technology li a:hover{
+    color: black;
+}
+button {
+    background: transparent;
+    width: 80px;
+    height: 80px;
+    border-width: 1px;
+    background-color: hsla(0, 26%, 82%, 0.2);
+    border-radius: 50%;
+}
+button:hover {
+    background-color: rgba(250, 249, 249, 0.7);
+}
+.lista-activo button{
+    background: rgb(255, 254, 254, 0.8);
+}
+#informacion{
+    width: 55%;
+}
+h2{
+    padding-top: 40px;
+    padding-bottom: 150px;
+    font-size: 30px;
+    font-weight: 100;
+}
+h4{
+    opacity: 0.8;
+    font-size: 23px;
+    font-weight: 100;
+    padding-bottom: 9px;
+}
+h1{
+    font-size: 74px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+p{
+    line-height: 1.6;
+    font-size: 17px;
+}
+#texto{
+    display: flex;
+    justify-content: space-between;
+}
+#text .menu-technology{
+    width: 20%;
+}
+#fondo{
+    padding-top: 130px;
+    height: 480px;
+    width: 40%;
+}
+@media (max-width: 380px){
+    #container{
+        background-image: url(/starter-code/assets/technology/background-technology-mobile.jpg);
+    }
+    #content{
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    .menu-technology li{
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    .menu-technology li a{
+        font-size: 15px;
+    }
+    .menu-technology li a:hover{
+        color: black;
+    }
+    button {
+        width: 60px;
+        height: 60px;
+    }
+    button:hover {
+        background-color: rgba(250, 249, 249, 0.7);
+    }
+    .lista-activo button{
+        background: rgb(255, 254, 254, 0.8);
+    }
+    #informacion{
+        width: 100%;
+    }
+    h2{
+        padding-top: 4px;
+        padding-bottom: 80px;
+        font-size: 25px;
+    }
+    h4{
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+    h1{
+        font-size: 37px;
+        padding-bottom: 20px;
+    }
+    p{
+        line-height: 1.5;
+        font-size: 13px;
+    }
+    #fondo{
+        padding: 40px 0 30px 76px;
+        height: 225px;
+        width: 200px;
+    }
+}

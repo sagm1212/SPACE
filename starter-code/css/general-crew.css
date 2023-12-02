@@ -1,0 +1,113 @@
+#menu li:nth-child(3){ 
+    border-bottom: 3px solid white;
+}
+#container{
+    background-image: url(/starter-code/assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 38px;
+}
+#infor{
+    width: 40%;
+}
+#infor h4{
+    padding-top: 80px;
+    font-size: 26px;
+    font-weight: 100;
+    padding-bottom: 147px;
+}
+#infor h2{
+    font-size: 29px;
+    font-weight: 300;
+    padding-bottom: 13px;
+    opacity: 0.6;
+}
+#infor h1{
+    font-size: 54px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+#infor p{
+    line-height: 1.8;
+    opacity: 0.8;
+    padding-bottom: 30px;
+}
+.menu-crew{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    width: 4cm;
+    justify-content: space-between;
+}
+.menu-crew li{
+    list-style: none;
+}
+.menu-crew li a{
+    color: transparent;
+}
+button {
+    background: rgb(253, 253, 253, 0.3);
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+}
+button:hover {
+    opacity: 1;
+    background-color: white;
+}
+.lista-activo button{
+    background: white;
+}
+#fondo{
+    padding-top: 50px;
+    height: 530px;
+    width: 40%;
+}
+@media (max-width: 380px){
+    #container{
+        background-image: url(/starter-code/assets/crew/background-crew-mobile.jpg);
+    }
+    #content{
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    #infor{
+        width: 100%;
+    }
+    #infor h4{
+        padding-top: 2px;
+        font-size: 22px;
+        font-weight: 100;
+        padding-bottom: 60px;
+    }
+    #infor h2{
+        font-size: 23px;
+        padding-bottom: 5px;
+    }
+    #infor h1{
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+    #infor p{
+        line-height: 1.5;
+        padding-bottom: 30px;
+    }
+    .menu-crew{
+        padding-left: 90px;
+        margin: 0;
+    }
+    #fondo{
+        padding: 0 70px;
+        padding-top: 26px;
+        padding-bottom: 23px;
+        height: 225px;
+        width: 200px;
+    }
+}
