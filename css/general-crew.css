@@ -2,7 +2,7 @@
     border-bottom: 3px solid white;
 }
 #container{
-    background-image: url(/assets/crew/background-crew-desktop.jpg);
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -72,7 +72,7 @@ button:hover {
 }
 @media (max-width: 380px){
     #container{
-        background-image: url(/assets/crew/background-crew-mobile.jpg);
+        background-image: url(../assets/crew/background-crew-mobile.jpg);
     }
     #content{
         flex-direction: column;
