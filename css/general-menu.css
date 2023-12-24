@@ -50,6 +50,7 @@ hr{
         right: 9%;
     }
     #close{
+        display: none;
         z-index: 20;
     }
     hr{
@@ -59,6 +60,7 @@ hr{
         padding: 24px 0px 24px 32px;
     }
     #menu{
+        display: none;
         z-index: 4;
         backdrop-filter: blur(20px);
         background-color: rgba(255, 255, 255, 0.4);

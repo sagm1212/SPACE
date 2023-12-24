@@ -2,7 +2,7 @@
     border-bottom: 3px solid white;
 }
 #container{
-    background-image: url(/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-image: url(/assets/technology/background-technology-desktop.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -76,7 +76,7 @@ p{
 }
 @media (max-width: 380px){
     #container{
-        background-image: url(/starter-code/assets/technology/background-technology-mobile.jpg);
+        background-image: url(/assets/technology/background-technology-mobile.jpg);
     }
     #content{
         flex-direction: column;
