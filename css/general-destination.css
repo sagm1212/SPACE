@@ -69,7 +69,7 @@
     padding-left: 143px;
     padding-right: 233px;
 }
-@media (max-width: 380px){
+@media (max-width: 450px){
     #container{
         background-image: url(../assets/destination/background-destination-mobile.jpg);
     }
