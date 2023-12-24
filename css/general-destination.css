@@ -57,7 +57,27 @@
     font-size: 22px;
     font-weight: 100;
 }
+
+#container{
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 143px;
+    padding-right: 233px;
+}
 @media (max-width: 380px){
+    #container{
+        background-image: url(../assets/destination/background-destination-mobile.jpg);
+    }
+    #content{
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     #destino{
         width: 100%;
     }
