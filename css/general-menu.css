@@ -29,7 +29,8 @@ hr{
     padding-right: 160px;
     padding-left: 114px;
     background-color: hsla(0, 26%, 82%, 0.2);
-}#menu li{
+}
+#menu li{
     padding: 35px 0;
     list-style: none;
     align-items: center;
